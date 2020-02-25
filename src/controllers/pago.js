@@ -35,7 +35,7 @@ pagoController.pagoDeNumeros = async (req, res) => {
               
               res.json('error charge');
           }else{
-              console.log('charge');
+              console.log('pago creado');
               res.json(charge);
           }
         }
